@@ -1,5 +1,7 @@
 {
     "name": "LaptopHarbor Dev Enviroment",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "postCreateCommand": "echo 'Devcontainer ready'"
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postCreateCommand": "flutter doctor"
 }
