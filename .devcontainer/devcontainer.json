@@ -1,18 +1,5 @@
 {
     "name": "LaptopHarbor Dev Enviroment",
-    "image": "mcr.microsoft.com/devcontainers/flutter:latest",
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
-    },
-    "postCreateCommand": "flutter pub get",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "Dart-code.flutter",
-                "Dart-Code.dart-code",
-                "ms-azuretools.vscode-docker",
-                "ms-vscode.cpptools"
-            ]
-        }
-    }
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "echo 'Devcontainer ready'"
 }
