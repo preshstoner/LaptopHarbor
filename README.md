@@ -29,3 +29,9 @@ Built with Flutter in GitHub Codespaces.
 
 ## License
 MIT License
+
+## Acknowledgements
+
+We would like to express our sincere gratitude to our instructors and mentors for their guidance throughout the development of LaptopHarbor.  
+Special thanks to our teammates for their collaboration and dedication, and to the open‑source community for providing tools and resources that made this project possible.  
+Finally, we appreciate the support of our peers and families, whose encouragement helped us complete this eProject successfully.
