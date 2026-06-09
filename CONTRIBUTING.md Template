@@ -1,28 +1,42 @@
 # Contributing Guidelines
 
 ## Branching Strategy
-We use **Simple Feature Branching** to keep development organized.
+We use a **Simplified Git Flow** to keep development organized and stable.
 
-- **main** → stable code only (production-ready)
-- **feature/*** → each new feature or bug fix (e.g., `feature/authentication`, `feature/cart-module`)
-- All changes must be merged into `main` via **Pull Requests (PRs)**
+### Branches
+- **main** → contains the final, stable version of the app
+- **development** → integration branch where all features are merged after review
+- **feature/*** → each teammate works on one module independently
+  - Examples:
+    - feature-authentication
+    - feature-product-listing
+    - feature-cart-checkout
+    - feature-order-tracking
+    - feature-user-profile
+    - feature-wishlist
+    - feature-support
 
-## Workflow
-1. **Create a branch** for your work:
-   git checkout -b feature/<feature-name>
-2. Commit changes with clear messages:
+### Workflow
+1. **Create a feature branch** from `development`:
+   git checkout -b feature/<feature-name> development
+2. Develop & test your feature locally.
 
-bash
-git commit -m "Add login validation logic"
+3. Commit changes with clear messages:
+git commit -m "Implement product listing filter"
 
-3. Push branch to GitHub:
+
+4. Push branch to GitHub:
 git push origin feature/<feature-name>
 
-4. Open a Pull Request into main.
+5. Open a Pull Request into development.
 
-Request review from teammates.
+6. Teammates review and approve the PR.
 
-Resolve conflicts before merging.
+7. Merge into development once stable.
+
+8. When all features are stable, merge development into main for release.
+
+
 
 Commit Message Guidelines
 Use present tense: "Add login validation" not "Added login validation"
@@ -31,32 +45,7 @@ Keep messages concise but descriptive.
 
 Reference issues if applicable: "Fix #12 – Cart update bug"
 
-Code Standards
-Follow Flutter/Dart best practices.
-
-Keep functions small and modular.
-
-Document complex logic with comments.
-
 Reviews
 At least one teammate must approve a PR before merging.
 
-No direct commits to main.
-
-Code
-
----
-
-## ✅ Next Actions
-1. Create the file:
-   ```bash
-   touch CONTRIBUTING.md
-
-2. Paste the template above.
-
-3. Stage, commit, and push:
-
-bash
-git add CONTRIBUTING.md
-git commit -m "Added contributing guidelines with simple feature branching"
-git push origin main
+No direct commits to main or development.
