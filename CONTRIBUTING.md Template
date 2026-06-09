@@ -1,0 +1,62 @@
+# Contributing Guidelines
+
+## Branching Strategy
+We use **Simple Feature Branching** to keep development organized.
+
+- **main** → stable code only (production-ready)
+- **feature/*** → each new feature or bug fix (e.g., `feature/authentication`, `feature/cart-module`)
+- All changes must be merged into `main` via **Pull Requests (PRs)**
+
+## Workflow
+1. **Create a branch** for your work:
+   git checkout -b feature/<feature-name>
+2. Commit changes with clear messages:
+
+bash
+git commit -m "Add login validation logic"
+
+3. Push branch to GitHub:
+git push origin feature/<feature-name>
+
+4. Open a Pull Request into main.
+
+Request review from teammates.
+
+Resolve conflicts before merging.
+
+Commit Message Guidelines
+Use present tense: "Add login validation" not "Added login validation"
+
+Keep messages concise but descriptive.
+
+Reference issues if applicable: "Fix #12 – Cart update bug"
+
+Code Standards
+Follow Flutter/Dart best practices.
+
+Keep functions small and modular.
+
+Document complex logic with comments.
+
+Reviews
+At least one teammate must approve a PR before merging.
+
+No direct commits to main.
+
+Code
+
+---
+
+## ✅ Next Actions
+1. Create the file:
+   ```bash
+   touch CONTRIBUTING.md
+
+2. Paste the template above.
+
+3. Stage, commit, and push:
+
+bash
+git add CONTRIBUTING.md
+git commit -m "Added contributing guidelines with simple feature branching"
+git push origin main
