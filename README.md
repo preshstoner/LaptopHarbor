@@ -1,7 +1,31 @@
 # LaptopHarbor
 
-LaptopHarbor is a mobile‑based e‑commerce application designed to simplify and enhance the laptop shopping experience for users. The app provides a centralized platform where customers can browse, compare, and purchase laptops and related accessories with ease. It bridges the gap between consumers seeking the ideal laptop and vendors offering diverse models, specifications, and competitive pricing.
-The application focuses on delivering a user‑friendly, responsive, and secure shopping environment. Users can explore laptops by brand, price, category, and technical specifications, supported by advanced filtering and sorting options. Each product page includes detailed descriptions, high‑quality images, specifications, and user reviews to help customers make informed decisions.
-LaptopHarbor includes essential e‑commerce features such as user registration, secure authentication, shopping cart management, checkout, order tracking, wishlists, and profile management. Users can track their orders in real time, receive notifications, and manage their personal information within the app. The platform also offers built‑in customer support and feedback options to ensure a smooth user experience.
-From a technical standpoint, the application emphasizes scalability, security, error handling, and operability, ensuring reliable performance even as user traffic grows. The system architecture supports future enhancements and modular development.
-LaptopHarbor serves as a real‑world project that integrates multiple IT concepts, enabling students to apply their knowledge in a practical, industry‑relevant scenario. It demonstrates the complete lifecycle of a modern mobile application—from design and development to deployment and documentation—making it an ideal eProject for skill reinforcement and professional readiness.
+## Overview
+LaptopHarbor is an e‑commerce platform for browsing, comparing, and purchasing laptops.  
+Built with Flutter in GitHub Codespaces.
+
+## Features
+- User authentication
+- Product browsing and filtering
+- Shopping cart and checkout
+- Order tracking
+- Wishlist and reviews
+
+## Project Structure
+- `/app` → Flutter source code
+- `/docs` → Design documentation (DFDs, ERD, flowcharts)
+- `/tests` → Unit and integration tests
+
+## Setup
+1. Clone the repo
+2. Open in GitHub Codespaces
+3. Run `flutter doctor` to verify environment
+4. Start with `flutter run`
+
+## Contributing
+- Branching strategy: see below
+- Submit PRs to `develop` branch
+- Follow coding standards in CONTRIBUTING.md
+
+## License
+MIT License
